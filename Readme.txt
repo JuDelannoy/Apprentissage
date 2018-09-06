@@ -4,6 +4,8 @@ https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-pa
 
 Il s'agit d'une explication pour utiliser github et github
 
+CREATION DOSSIER (non existant sur web et existant en local)
+
 - ouvrir le bash git dans le bon dossier (repository)
 - si repository git non créé: git init
 - information sur le statut : git status
@@ -22,6 +24,14 @@ on push ce qu'on a modifié en local sur github.com :
 Maintenant tout se trouve sur votre github !!!
 
 
-problèmes :
+RECUPERATION DOSSIER (existant sur github mais pas en local)
+- git init
+- git clone git://git.renater.fr/nom_projet.git pour récupérer le dossier
+- Ensuite on peut faire les modifications en local puis les ajoutr, commiter et pousser.
+
+
+PROBLEMES :
 Si vous avez un conflit de push-forward car il y a eu une modification sur internet :
 git pull --rebase origin master
+
+
